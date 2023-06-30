@@ -2,29 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Card-Navbar | Amaliyot</title>
+    
+    <!-- style faylga link -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    
     <div class="container">
+        <!-- Navbar section -->
         <nav>
             <div class="logo">
                 <img src="https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg" alt="logo">
             </div>
             <div class="links">
                 <ul>
-                    <li>Home</li>
+                    <li class="active">Home</li>
                     <li>Accessories</li>
                     <li>Shop</li>
                     <li>Products</li>
                     <li>Contact</li>
                 </ul>
                 <div class="icon">
-                    <img src="https://cdn-icons-png.flaticon.com/512/211/211170.png" alt="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/211/211170.png" alt="icon ">
                 </div>
             </div>
         </nav>
+
+        <!-- Card section -->
+        <div class="card-container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://images.uzum.uz/cgv925r57mg9720ffa5g/t_product_540_high.jpg#1688009825737" alt="product-image">
+                </div>
+                <div class="card-title">
+                    <div id="title">
+                        <p>Smartphone Xiaomi Redmi Note 12</p>
+                        <p>4/128GB</p>
+                    </div>
+                    <small>
+                        <img src="https://img.freepik.com/premium-vector/star-icon-vector-classic-rank-isolated-trendy-flat-favorite-design-star-web-site-pictogram-mobile-app-logo-illustration-eps10_549897-719.jpg?w=2000" alt="star">
+                        <span>5.0 (9 baho)</span>
+                    </small>
+                    <p id="yellow">284 640 sum/month</p>
+                    <p style="text-decoration: line-through; font-size: 12px; color: grey; margin-top: 15px;">2 650 000</p>
+                    <div id="price-icon">
+                        <span>2 372 000</span>
+                        <span id="bag-icon">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFkWkd1AhuvazBWPhiF9JnU1iJorKs8dzmig&usqp=CAU" alt="bag-icon">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+
 </body>
 </html>
